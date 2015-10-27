@@ -1,0 +1,9 @@
+CC = gcc
+CFLAGS = `idris --include`
+
+curl_idris.o: curl_idris.c curl_idris.h
+
+clean: .PHONY
+				rm curl_idris.o
+
+.PHONY:

@@ -1,0 +1,10 @@
+package curl
+
+sourcedir = src
+
+makefile = MakefileCurl
+
+modules = Curl.Request
+
+objs = curl_idris.o, curl_idris.h
+libs = curl
